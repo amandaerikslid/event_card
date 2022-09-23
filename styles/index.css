@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(66, 64, 233));
+    width: 100%;
+    display: flex;
+}
+
+.container_card {
+    border: 5px ridge black;
+    min-width: 1000px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
