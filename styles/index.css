@@ -1,13 +1,60 @@
 body {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(66, 64, 233));
-    width: 100%;
+    background-image: 
+    width: 90%;
     display: flex;
 }
 
 .container_card {
-    border: 5px ridge black;
+    border: 5px ridge rgb(182, 138, 223);
     min-width: 1000px;
-    height: 700px;
+    max-height: 700px;
     margin: auto;
     margin-top: 50px;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(66, 64, 233));
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.rvsp {
+    background: #c3bcf0ab;
+    border-radius: 10px;
+    border-color: #8b87813a;
+    font-family: 'Passions Conflict';
+    font-size: 40px;
+    color: #000000;
+    width: 170px;
+    height: 100px;
+    margin: 20px;
+    transform: translateX(50px);
+}
+
+.rvsp:hover {
+    background-color: rgb(152, 150, 231);
+    transition: 0.7s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.btn_flower {
+    display: flex;
+    align-items: baseline;
+}
+
+.flowerpower {
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    object-fit: cover;
+    animation: imgZoom 3.5s ease infinite;
+}
+
+@keyframes imgZoom {
+	0% {transform: scale(1) rotate(0deg);}
+	50% {transform: scale(1.4) rotate(30deg);}
+	100% {transform: scale(1) rotate(0deg);}
 }
